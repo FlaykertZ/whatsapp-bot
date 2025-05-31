@@ -1,28 +1,30 @@
 function mainMessage(message){
-    message.reply(`היי וברוכה הבאים למערך תקשוב חטיבה 5\n
+    message.reply(`💙 היי וברוכים הבאים למערך תקשוב חטיבה 5 💙\n
         אנו נותנים מענה לכלל משתמשי המחשוב בחטיבה\n
-        בשעות הפעילות שלנו נעות בין השעות 00:00 ל00:00 ליום שאחרי.\n
+        שעות הפעילות שלנו נעות בין השעות 00:00 ל00:00 ליום שאחרי.
 
-        לתקלות בנושא מחשוב, יש לרשום 1
-        לתקלות בנושאים אחרים, יש לרשום 2
-        לרעיונות לבוט, הוספה, באגים וכו, יש לרשום 3
-        \n
+        1️⃣ - לתקלות מחשוב
+        2️⃣ - לתקלות בנושאים אחרים
+        3️⃣ - לרעיונות לבוט, הוספה, תלונות על באגים וכו
+
         בוט זה נוצר על ידי ד. חבקין\n
         שימו לב שבוט זה עדיין בפיתוח וישנן פונקציות שלא יעבדו 100 אחוז`)
 }
 
 function computerProblem(message){
-    message.reply(`לתקלות בנושא ווינדואוס, יש לרשום 1
-        לתקלות בנושא טלפונים, יש לרשום 2
-         לתקלות בנושא אינטרנט, יש לרשום 3
-        `)
+    message.reply(`
+        1️⃣ - לתקלות בנושא ווינדואוס
+        2️⃣ - לתקלות בנושא טלפוניה
+        3️⃣ - לתקלות בנושא אינטרנט
+        0️⃣ - חזרה לתפריט הראשי`)
 }
 
 function otherProblems(message){
-    message.reply(`לתקלות בנושא משואה, יש לרשום 1
-        למספרי טלפון חשובים, יש לרשום 2
-        לתקלות בנושא כרטיסים, יש לרשום 3
-        `)
+    message.reply(`
+        1️⃣ - לתקלות בנושא משואה
+        2️⃣ - למספרי טלפון חשובים
+        3️⃣ - לתקלות בנושא כרטיסים
+        0️⃣ - חזרה לתפריט הראשי`)
 }
 
 function windowsProblems(message){
@@ -39,6 +41,9 @@ function windowsProblems(message){
 function telephoneProblems(message){
     message.reply(`היי, לפניך מספר פתרונות לתקלות שיכולות להיות לך הקשורות לטלפוניה
         במידה והפתרונות האלו לא עוזרות, יש לרשום "היי" ולבקש נציג
+        \n
+        במידה והצג של הטלפון מכובה, והוא עבד בעברו, יש לחזק חיבור של כבל הרשת המחובר לטלפון.
+        במידה והכבל רשת מחובר טוב ועדיין הצג לא מופיע, יש לקרוא לאנשי המחשוב
         \n
         במידה ואתם רוצים לבצע שיחות בטלפון *סיסקו*, אך אתם לא מקבלים שיחות או לא יכולים לשלוח שיחות
         יש לוודא שהמשתמש מוגדר בסיסקו כמו שצריך

@@ -1,0 +1,10 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore WhatsApp session/auth data
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Ignore logs and environment files
+*.log
+.env

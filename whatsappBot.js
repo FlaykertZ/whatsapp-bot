@@ -30,7 +30,7 @@ client.on('message', async (message) => {
 
     if (isGroup) return;
 
-    if (message.body === 'היי' && greetedUsers.has(sender)) {
+    if (message.body === '0' && greetedUsers.has(sender)) {
 
         mainMessage(message)
         answerTwo.delete(sender)
@@ -68,11 +68,6 @@ client.on('message', async (message) => {
     } else if (message.body === '3' && answerTwo.has(sender)){
         internetProblems(message)
     }
-
-    setInterval(() => {
-        greetedUsers.clear();
-        console.log("Users have been reset")
-    }, 15 * 60 * 1000)
 })
 
 // Start the client
