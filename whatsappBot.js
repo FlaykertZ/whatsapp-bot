@@ -5,6 +5,8 @@ const qrcode = require('qrcode-terminal');
 
 // Initialize client
 
+console.log("starting bot...")
+
 const client = new Client({
     authStrategy: new LocalAuth() // 👈 Persistent login
 });
